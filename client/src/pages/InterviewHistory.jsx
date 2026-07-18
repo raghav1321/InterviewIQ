@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from "axios"
+axios.defaults.withCredentials = true;
 import { ServerUrl } from '../App'
 import { FaArrowLeft } from 'react-icons/fa'
 function InterviewHistory() {
