@@ -13,7 +13,7 @@ dns.setServers(["1.1.1.1","8.8.8.8"])
 
 const app = express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://interviewiq-gv8r.onrender.com",
     credentials:true
 }))
 
