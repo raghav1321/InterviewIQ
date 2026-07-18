@@ -8,6 +8,7 @@ import { useState } from 'react'
 import { useRef } from 'react'
 import { useEffect } from 'react'
 import axios from "axios"
+axios.defaults.withCredentials = true;
 import { ServerUrl } from '../App'
 import { BsArrowRight } from 'react-icons/bs'
 
