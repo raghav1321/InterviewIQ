@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from "axios"
+axios.defaults.withCredentials = true;
 import { ServerUrl } from '../App';
 import Step3Report from '../components/Step3Report';
 function InterviewReport() {
